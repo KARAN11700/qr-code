@@ -9,7 +9,7 @@ GOOGLE_REVIEW = "https://www.google.co.in/maps/place/SHARDA+CLOTH+STORE/@30.3181
 
 @app.route("/")
 def home():
-    message = "Thanks for visiting Sharda Cloth Shop 😊 Please give us a review ⭐"
+    message = "Hi i need help regarding clothes"
 
     encoded_msg = urllib.parse.quote(message)
 
